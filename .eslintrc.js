@@ -29,6 +29,7 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'no-underscore-dangle': 0,
   },
   env: {
     es6: true,
