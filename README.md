@@ -1,1 +1,1 @@
-# eslint-config-storylog-2
+# eslint-config-storylog-base
