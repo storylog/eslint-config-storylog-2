@@ -1,6 +1,8 @@
 module.exports = {
   extends: ['airbnb-base', 'plugin:prettier/recommended'],
   rules: {
+    'no-underscore-dangle': 0,
+    'require-await': 'error',
     'sort-imports': [
       'error',
       {
@@ -29,10 +31,12 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
-    'no-underscore-dangle': 0,
+    'import/no-cycle': 0,
   },
+  ignorePatterns: ['dist'],
   env: {
     es6: true,
     jest: true,
+    node: true,
   },
 };
